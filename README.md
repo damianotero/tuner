@@ -1,34 +1,34 @@
 # Neural Tuner
 
-Afinador de guitarra para Android con estética cyberpunk, construido con Flutter.
+Android guitar tuner with a cyberpunk aesthetic, built with Flutter.
 
-## Características
+## Features
 
-- **Modo Guitar** — afina las 6 cuerdas con detección por cuerda activa
-- **Modo Chromatic** — detecta cualquier nota musical (C a B, todas las octavas)
-- **4 afinaciones** — Standard, Drop D, Open G, DADGAD
-- **Medidor analógico** — aguja con zona verde central (±5 cents)
-- **Display de cents** — desviación numérica en tiempo real
-- **Timeout de señal** — reset automático si no hay audio por 2 segundos
-- **Manejo de permisos** — pantalla de error si el micrófono es denegado
-- **Estética cyberpunk** — colores neón (cian/rosa), efectos de brillo
+- **Guitar mode** — tunes all 6 strings with per-string active detection
+- **Chromatic mode** — detects any musical note (C to B, all octaves)
+- **4 tunings** — Standard, Drop D, Open G, DADGAD
+- **Analog meter** — needle with center green zone (±5 cents)
+- **Cents display** — real-time numeric deviation
+- **Signal timeout** — auto-reset if no audio detected for 2 seconds
+- **Permission handling** — error screen if microphone is denied
+- **Cyberpunk aesthetic** — neon colors (cyan/pink), glow effects
 
-## Stack técnico
+## Stack
 
 - Flutter 3.x + Dart
-- `flutter_audio_capture` — captura de audio en tiempo real
-- `pitch_detector_dart` — detección de frecuencia fundamental
-- `permission_handler` — permisos de micrófono
+- `flutter_audio_capture` — real-time audio capture
+- `pitch_detector_dart` — fundamental frequency detection
+- `permission_handler` — microphone permissions
 
-## Construcción
+## Build
 
 ```bash
 flutter pub get
 flutter build apk --release
-# APK en: build/app/outputs/flutter-apk/app-release.apk
+# APK output: build/app/outputs/flutter-apk/app-release.apk
 ```
 
-## Historia
+## Background
 
-Construido desde 0 con Gemini CLI en 3 prompts (v1.0), luego mejorado con Claude Code (v2.0).
-Ver `docs/proceso-desarrollo.md` para el historial completo.
+Built from scratch with Gemini CLI in 3 prompts (v1.0), then improved with Claude Code (v2.0).
+See `docs/proceso-desarrollo.md` for the full development log.
