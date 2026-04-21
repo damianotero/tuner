@@ -49,3 +49,15 @@
 - Se mantiene un solo archivo `main.dart` — el tamaño (~370 líneas) sigue siendo manejable y no justifica separar en widgets.
 - La detección cromática usa A4=440Hz como referencia estándar internacional.
 - En modo Guitar, la nota activa se identifica cruzando nombre de nota + octava (no solo el nombre), lo que permite distinguir E2 de E4 correctamente.
+
+---
+
+## Sesión 003 — 2026-04-21 (Claude Code)
+### Qué se hizo
+- Creado `CLAUDE.md` con propósito, stack, comandos de dev y constraints del proyecto.
+- Creado `docs/roadmap.md` con v1.0 y v2.0 en Completed y las 3 ideas futuras en Next.
+- Commiteado a main.
+
+### Archivos creados
+- `CLAUDE.md`
+- `docs/roadmap.md`
