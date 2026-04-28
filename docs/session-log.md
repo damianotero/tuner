@@ -61,3 +61,9 @@
 ### Archivos creados
 - `CLAUDE.md`
 - `docs/roadmap.md`
+
+## Sesión 002 — 2026-04-27 (Claude Code)
+
+### Qué se hizo
+- Workspace check: agregado `.env` a `.gitignore`.
+- Creado `docs/tasks.md`.
