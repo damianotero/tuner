@@ -1,5 +1,11 @@
 # Registro de Sesiones
 
+## Sesión 002 — 2026-05-01 (Claude Code)
+### Qué se hizo
+- **Workspace-check hygiene**: envuelto `debugPrint` en `lib/main.dart:135` con guard `if (kDebugMode)` antes de distribución como APK de release.
+
+---
+
 ## Sesión 001 — 2026-04-17 (Gemini CLI)
 ### Qué se hizo
 - Inicialización del proyecto Flutter para Android con soporte Material 3.
