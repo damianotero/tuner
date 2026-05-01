@@ -132,7 +132,7 @@ class _TunerHomePageState extends State<TunerHomePage> {
           _processing = false;
         }
       },
-      (Object e) => debugPrint(e.toString()),
+      (Object e) { if (kDebugMode) debugPrint(e.toString()); },
       sampleRate: 44100,
       bufferSize: 2048,
     );
