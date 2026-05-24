@@ -1,5 +1,13 @@
 # Registro de Sesiones
 
+## Sesión 003 — 2026-05-23 (Claude Code) — Sync CLAUDE.md y GEMINI.md
+
+- `CLAUDE.md` era breve y en inglés; `GEMINI.md` era más completo en español. Se tomó la versión más completa como base y se sincronizaron ambos archivos (mismo contenido).
+- Sin violaciones de "no tasks in context".
+- Cambio aprobado por Damian antes de aplicar.
+
+**Contexto:** Parte de la Fase 2 del plan de migración Gemini CLI → Antigravity. Detalle en `~/workspace/docs/session-log.md` sesión 2026-05-23.
+
 ## Sesión 002 — 2026-05-01 (Claude Code)
 ### Qué se hizo
 - **Workspace-check hygiene**: envuelto `debugPrint` en `lib/main.dart:135` con guard `if (kDebugMode)` antes de distribución como APK de release.

@@ -1,24 +1,53 @@
-# Neural Tuner
+# Neural Tuner — Contexto del Proyecto
 
-Chromatic guitar tuner with a cyberpunk aesthetic, built in Flutter.
+Leer este archivo al inicio de cada sesión antes de hacer nada.
 
-## Stack
+---
 
-Flutter (Dart), pitch_detector_dart, flutter_audio_capture. Android-first.
+## Qué es este proyecto
 
-## Local dev
+Afinador cromático de guitarra con estética cyberpunk, construido en Flutter. Distribuido como APK directo — sin publicación en Play Store por ahora.
+
+**Desarrollador**: Damian Otero (no programador profesional, aprende con IA).
+**Comunicar siempre en español.**
+
+---
+
+## Stack tecnológico
+
+| Capa | Tecnología |
+|------|-----------|
+| Framework | Flutter (Dart) |
+| Detección de pitch | `pitch_detector_dart` |
+| Captura de audio | `flutter_audio_capture` |
+| Target | Android-first |
+| Distribución | APK directo (no Play Store) |
+
+---
+
+## Comandos de desarrollo
 
 ```bash
 flutter pub get
-flutter run                 # requires connected device or emulator
-flutter build apk           # release APK
-flutter test                # run tests
+flutter run                 # requiere dispositivo físico o emulador
+flutter build apk           # genera APK release
+flutter test                # corre tests
 ```
 
-## Constraints
+⚠️ La captura de audio requiere **dispositivo físico** — los emuladores no soportan entrada de micrófono.
 
-- Audio capture requires physical device — emulators don't support mic input.
-- Cyberpunk aesthetic is intentional: keep UI dark, neon accents, monospace font.
-- No planned deployment to Play Store yet — distributed as direct APK.
+---
 
-See root CLAUDE.md for shared conventions.
+## Identidad visual
+
+- Estética **cyberpunk** — fondo oscuro, acentos neón, fuente monoespaciada.
+- No cambiar la estética sin instrucción explícita.
+
+---
+
+## Reglas de trabajo
+
+- Comunicar siempre en español.
+- Mantener la estética cyberpunk en cualquier cambio visual.
+- Al terminar: actualizar `docs/session-log.md` y `docs/tasks.md` si existen.
+- No añadir dependencias (`flutter pub add`) sin instrucción explícita.

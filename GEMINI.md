@@ -1,16 +1,14 @@
 # Neural Tuner — Contexto del Proyecto
 
-> Archivo de contexto para Gemini CLI.
-> Leer este archivo al inicio de cada sesión antes de hacer cualquier cosa.
+Leer este archivo al inicio de cada sesión antes de hacer nada.
 
 ---
 
 ## Qué es este proyecto
 
-Afinador cromático de guitarra con estética cyberpunk, construido en Flutter.
-Distribuido como APK directo — sin publicación en Play Store por ahora.
+Afinador cromático de guitarra con estética cyberpunk, construido en Flutter. Distribuido como APK directo — sin publicación en Play Store por ahora.
 
-**Desarrollador**: Damian Otero (no programador profesional, aprende con IA)
+**Desarrollador**: Damian Otero (no programador profesional, aprende con IA).
 **Comunicar siempre en español.**
 
 ---
@@ -42,14 +40,14 @@ flutter test                # corre tests
 
 ## Identidad visual
 
-- Estética **cyberpunk** — fondo oscuro, acentos neón, fuente monoespaciada
-- No cambiar la estética sin instrucción explícita
+- Estética **cyberpunk** — fondo oscuro, acentos neón, fuente monoespaciada.
+- No cambiar la estética sin instrucción explícita.
 
 ---
 
 ## Reglas de trabajo
 
-- Comunicar siempre en español
-- Mantener la estética cyberpunk en cualquier cambio visual
-- Al terminar: actualizar `docs/session-log.md` y `docs/tasks.md` si existen
-- No añadir dependencias (`flutter pub add`) sin instrucción explícita
+- Comunicar siempre en español.
+- Mantener la estética cyberpunk en cualquier cambio visual.
+- Al terminar: actualizar `docs/session-log.md` y `docs/tasks.md` si existen.
+- No añadir dependencias (`flutter pub add`) sin instrucción explícita.
