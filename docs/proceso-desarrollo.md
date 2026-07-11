@@ -39,25 +39,6 @@
 - Sin manejo de permiso denegado.
 - Sin estado de "sin señal".
 
-**Cambios implementados:**
-
-### Funcionales
-- **Modo cromático**: Detecta cualquier nota (C0 a B8) usando fórmula semitono = 12 × log₂(f/440).
-- **4 afinaciones de guitarra**: Standard, Drop D, Open G, DADGAD.
-- **Identificación correcta de cuerda**: Cruza nombre de nota + octava para distinguir E2 de E4.
-
-### Rendimiento
-- **Flag `_processing`**: Evita futures concurrentes en el callback de audio.
-- **Throttle de 80ms**: Máximo ~12 rebuilds de UI por segundo.
-
-### UX
-- **Timeout de señal 2s**: Timer periódico resetea display cuando no hay audio.
-- **Pantalla de permiso denegado**: Con botón que abre ajustes del sistema.
-- **Display numérico de cents**: Desviación exacta visible debajo del status bar.
-
-### Visual
-- **Zona verde en medidor**: Arc semitransparente marca el rango ±5 cents.
-- **Tick central prominente**: El centro del medidor es visualmente más claro.
-- **Glow condicional**: El halo de luz solo aparece cuando hay señal activa.
+Detalle completo de los cambios implementados (modo cromático, 4 afinaciones, throttle, timeout de señal, pantalla de permiso denegado, zona verde del medidor) en `docs/session-log.md` → **Sesión 002 — 2026-04-17 (Claude Code)**.
 
 **APK generada**: `build/app/outputs/flutter-apk/app-release.apk` (42.8 MB)
