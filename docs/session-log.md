@@ -1,5 +1,11 @@
 # Registro de Sesiones
 
+## Sesión 006 — 2026-07-11 (Claude Code) — Remediación docs-audit (Bloque 8 workspace-wide)
+
+- **Qué se hizo**: Recortar duplicación en `proceso-desarrollo.md` enlazando a `session-log.md` según el plan workspace-wide [`docs/_archive/plans/docs-audit-remediation-2026-07-11-plan.md`](file:///Users/damianotero/workspace/docs/_archive/plans/docs-audit-remediation-2026-07-11-plan.md).
+
+---
+
 ## Sesión 005 — 2026-05-24 (Claude Code) — Drop GEMINI.md symlink (limpieza arquitectura workspace)
 
 - `GEMINI.md` eliminado (era symlink → `AGENTS.md`). Antigravity lee `AGENTS.md` directo.
